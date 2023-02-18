@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+login page, login logic
+unit test 
+e2e test
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

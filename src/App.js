@@ -14,6 +14,9 @@ import SideBar from "./scenes/global/SideBar";
 import './index.css'
 import Calendar from "./scenes/Calendar";
 import FAQ from "./scenes/FAQ";
+import Line from "./scenes/Line";
+import Geography from "./scenes/Geography";
+
 function App(){
   const [theme, colorMode] = useMode()
 
@@ -33,10 +36,10 @@ function App(){
               <Route path="/form" element={<Form />} />
               <Route path="/bar" element={<Bar />} />
               <Route path="/pie" element={<Pie />} />
-              {/*<Route path="/line" element={<Line />} />*/}
+              <Route path="/line" element={<Line />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/calendar" element={<Calendar />} />
-              {/*<Route path="/geography" element={<Geography />} />*/}
+              <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
         </div>
